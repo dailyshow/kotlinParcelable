@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity() {
 
         if (resultCode == Activity.RESULT_OK) {
             var t3 = data?.getParcelableExtra<TestClass>("test3")
-            mainTv.text = "t2.data10 : ${t3?.data10}\n"
-            mainTv.append("t2.data20 : ${t3?.data20}")
+            mainTv.text = "t3.data10 : ${t3?.data10}\n"
+            mainTv.append("t3.data20 : ${t3?.data20}")
         }
     }
 }
